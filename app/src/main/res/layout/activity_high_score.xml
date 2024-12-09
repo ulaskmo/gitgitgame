@@ -1,0 +1,27 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/highScoresTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top Scores"
+        android:textSize="26sp"
+        android:textColor="#FFC107"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/highScoreList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/highScoresTitle"
+        android:layout_marginTop="12dp"
+        android:divider="#FF5722"
+        android:dividerHeight="2dp" />
+</RelativeLayout>

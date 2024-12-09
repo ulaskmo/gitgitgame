@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sequence Game"
+        android:textSize="30sp"
+        android:textColor="#E0F7FA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="Play Game"
+        android:textSize="18sp"
+        android:backgroundTint="#795548"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/appTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/highScoreButton"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="Scores"
+        android:textSize="18sp"
+        android:backgroundTint="#8BC34A"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/playButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:elevation="4dp" />
+</RelativeLayout>
